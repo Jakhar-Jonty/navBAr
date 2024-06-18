@@ -4,12 +4,12 @@ import { Nav_bar } from './Components/Nav_bar';
 function App() {
   return (
    <>
-  {/* <Nav_bar/> */}
-    <Router>
+  <Nav_bar/>
+    {/* <Router>
       <Routes>
         <Route path="/Home" element={<Nav_bar/>}/>
       </Routes>
-    </Router> 
+    </Router>  */}
    </>
   );
 }
